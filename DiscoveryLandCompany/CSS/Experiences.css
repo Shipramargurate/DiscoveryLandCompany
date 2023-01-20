@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    width: fit-content;
+    height: fit-content;
+}
+
+
+/* header {
+    height: 100vh;
+    width: 100vw;
+    border: 0px solid black
+} */
+
+/* .videopart {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+} */
+
+/* .headermain {
+    height: 100%;
+    width: 100%;
+} */
+/* 
+.main {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid red;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.main{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logocontent{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+
+}
+
+.mainone{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mainone a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.headertitile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 0%;
+    right: 12%;
+    color: #fff;
+  font-size: 350%;   
+}
+/* .logocontent {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+
+} */
+
+/* .logocontent img {
+    width: 96%;
+    position: relative;
+    top: 20px;
+
+
+} */
+
+/* .mainone {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+} */
+
+/* .mainone a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+} */
+header{
+    background-image: url('/ASSETS/dlcimgheader.jpg');
+    width: 100vw;
+    height: 100vh;
+    border: 0px solid red;
+    background-size: cover;
+    background-position: center;
+
+}
+.main{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+.logocontent{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+
+}
+.logocontent img{
+    width: 96%;
+
+    
+}
+.mainone{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mainone a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.headertitile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 0%;
+    right: 12%;
+    color: #fff;
+  font-size: 350%;   
+}
+
+.secondpart {
+    height: 40vh;
+    width: 100vw;
+    border: 0px solid blue;
+}
+
+.secondpart p {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    color: black;
+    box-sizing: border-box;
+    font-size: 200%;
+    font-family: gt-sectra;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    line-height: 150%;
+}
+
+.thirdpart {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    letter-spacing: 12%;
+
+}
+
+.fortext {
+
+    height: 80%;
+    width: 35%;
+    position: relative;
+    top: 20%;
+    font-family: 'Times New Roman';
+    border: 0px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 120%;
+}
+
+.forimg {
+    height: 90%;
+    width: 35%;
+    border: 0px solid maroon;
+}
+
+.thirdpart p {
+    color: black;
+}
+
+.thirdpart h2 {
+    font-size: xx-large;
+}
+
+.firstimg {
+    z-index: 1;
+    width: 75%;
+    height: 65%;
+    border: 0px solid maroon;
+    position: relative;
+    top: 15%;
+
+}
+
+.fourthpart {
+    height: 140vh;
+    width: 100vw;
+    border: 0px solid yellow;
+    background-color: #f3f3f3;
+}
+
+.whitebox {
+    height: 80%;
+    width: 55%;
+    border: 0px solid black;
+    z-index: 2;
+    position: relative;
+    left: 65%;
+    bottom: 92%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: large;
+}
+
+.fifthpart {
+    height: 100vh;
+    width: 100vw;
+    border: 0px solid red;
+    background-color: #f3f3f3;
+}
+
+.greybox1 {
+    height: 55%;
+    width: 55%;
+    border: 0px solid purple;
+    z-index: 1;
+    position: absolute;
+    position: relative;
+    background-color: grey;
+    left: 10%;
+    top: 30%;
+
+}
+
+.imgbox1 {
+    height: 80%;
+    width: 80%;
+    border: 0px solid green;
+    z-index: 2;
+    position: absolute;
+    position: relative;
+    left: 17%;
+    top: -55%;
+}
+
+.whitebox1 {
+    height: 63%;
+    width: 33%;
+    border: 0px solid black;
+    z-index: 3;
+    position: absolute;
+    position: relative;
+    bottom: 124%;
+    left: 6%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: large;
+}
+
+.sixthpart {
+    height: 100vh;
+    width: 100vw;
+    border: 0px solid brown;
+}
+
+.greybox2 {
+    height: 55%;
+    width: 65%;
+    border: 0px solid purple;
+    z-index: 1;
+    position: absolute;
+    position: relative;
+    background-color: grey;
+    left: 21%;
+    top: 32%;
+}
+
+.imgbox2 {
+    height: 80%;
+    width: 80%;
+    border: 0px solid green;
+    z-index: 2;
+    position: absolute;
+    position: relative;
+    left: 0%;
+    top: -55%;
+}
+
+.whitebox2 {
+    height: 63%;
+    width: 33%;
+    border: 0px solid black;
+    z-index: 3;
+    position: absolute;
+    position: relative;
+    bottom: 124%;
+    left: 61%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: large;
+}
+
+.seventhpart {
+    height: 80vh;
+    width: 100vw;
+    border: 0px solid blueviolet;
+    background-image: url('/ASSETS/Expimg4.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seventhpart p {
+    font-family: gotham;
+    color: #f3f3f3;
+    position: relative;
+    top: 40%;
+    font-size: xx-large;
+
+}
+
+.seventhpart button {
+    position: relative;
+    top: 1284%;
+}
+.footer{
+    width: 100vw;
+    height: 80vh;
+    border: 0px solid white; 
+     background-color: #161f1e; 
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     color: white;
+     flex-wrap: wrap;    
+    
+}
+
+.footer1{
+    width: 45%;
+    height: 100%;
+    border: 0px solid white;
+}
+.footer2{
+    width: 50%;
+    height: 100%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+.subchild1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;
+    line-height: 1.5em;
+    position: relative;
+    top: 100px;  
+} 
+
+.subchild2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;
+    line-height: 1.5em;
+    position: relative;
+    top: 100px;  
+} 
+.imageiccon{
+    width: 75px;
+    position: relative;
+    top: 110px;
+    left: 100px;
+
+}
+.bottemfooter{
+    position: relative;
+    top: 300px;
+    left: 100px;
+   
+}
+
+
+@media only screen and (min-width :320px) and (max-width :480px) {
+    .mainone {
+        display: none;
+    }
+
+    .secondpart {
+        height: auto;
+    }
+
+    .secondpart p {
+        top: 11px;
+        font-size: 129%;
+        line-height: 111%;
+    }
+
+    .thirdpart {
+        height: auto;
+        border: 0px solid blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .thirdpart {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .forimg {
+        height: 44%;
+        width: 92%;
+        border: 0px solid maroon;
+        position: relative;
+        bottom: 62%;
+    }
+
+    .thirdpart h2 {
+        font-size: x-large;
+        position: relative;
+        left: 17%;
+    }
+
+    .fortext {
+        width: 80%;
+        font-size: 89%;
+    }
+
+    .whitebox {
+        height: 83%;
+        width: 93%;
+        border: 0px solid black;
+        left: 3%;
+        bottom: 56%;
+        background: white;
+
+        font-size: medium;
+    }
+
+    .firstimg {
+        z-index: 1;
+        width: 95%;
+        height: 56%;
+        border: 0px solid maroon;
+        position: relative;
+        top: 5%;
+    }
+
+    .imgbox1 {
+        left: 0%;
+        top: -82%;
+    }
+
+    .greybox1 {
+        left: 25%;
+        top: 22%;
+    }
+
+    .whitebox1 {
+        width: 68%;
+        left: 6%;
+        font-size: small;
+    }
+
+    .greybox1 {
+        top: -8%;
+    }
+
+    .imgbox2 {
+        height: 53%;
+        width: 100%;
+    }
+
+    .whitebox2 {
+        height: 64%;
+        width: 85%;
+        bottom: 76%;
+        left: 5%;
+        font-size: medium;
+    }
+
+    .greybox2 {
+        height: 55%;
+        width: 100%;
+        left: 0%;
+        top: 32%;
+    }
+
+    .seventhpart {
+        height: 49vh;
+    }
+
+    .seventhpart button {
+        top: 519%;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 95vh;
+    }
+    .footer1{
+        height: 30%;
+        width: 100%;
+    }
+    .footer2{
+        height: 70%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .subchild2{
+        height: 70%;
+        width: 50%;
+        top: -3%;
+        left: 10%;
+    }
+    .subchild1{
+        height: 30%;
+        width: 100%;
+        top: -4%;
+        left: 9%;
+    }
+    .imageiccon{
+        width: 75px;
+        position: relative;
+        top: 48px;
+         left: 23px;
+    }
+    .bottemfooter{
+        position: relative;
+        left: 9%;
+        top: 229%;
+    }
+}
+
+@media only screen and (min-width :481px) and (max-width :768px){
+    
+}
+
+
+.main{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logocontent{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+
+}
+

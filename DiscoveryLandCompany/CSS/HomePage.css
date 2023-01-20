@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+    background-image: url('/ASSETS/dlcimgheader.jpg');
+    width: 100vw;
+    height: 100vh;
+    border: 0px solid red;
+    background-size: cover;
+    background-position: center;
+
+}
+.main{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+.logocontent{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+
+}
+.logocontent img{
+    width: 96%;
+
+    
+}
+.mainone{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mainone a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.headertitile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 0%;
+    right: 12%;
+    color: #fff;
+  font-size: 350%;   
+}
+
+
+header{
+    height: 100vh; 
+    width: 100vw;
+     border: 0px solid black
+}
+.videopart {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+}
+
+.headermain {
+    height: 100%;
+    width: 100%;
+}
+.headertitile{
+    color: white;
+    font-size: xx-large;
+    position: relative;
+    left: 24%;
+}
+.main {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid red;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logocontent {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+
+}
+
+.logocontent img {
+    width: 96%;
+    position: relative;
+    top: 20px;
+
+
+}
+
+.mainone {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*    border: 1px solid white; */
+}
+
+.mainone a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.secondpart{
+    height: 160vh;
+    width: 100vw;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.child1{
+    height: 100%;
+    width: 35%;
+    border: 0px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.child2{
+    height: 60%;
+    width: 30%;
+    border: 0px solid maroon;
+    position: relative;
+    top: 11%;
+}
+.welcome{
+    height: 28%;
+    width: 100%;
+    border: 0px solid blue;
+    position: relative;
+    top: 6%;
+    font-size: xx-large;
+
+}
+.textpart1{
+    height: 20%;
+    width: 100%;
+    position: relative;
+    top: -6%;
+    font-family: 'Times New Roman';
+    border: 0px solid green;  
+    font-size: large;
+    color: #777;
+    line-height: 30px;
+}
+.forhomeimg{
+    height: 35%;
+    width: 100%;
+    border: 0px solid purple;
+}
+
+.thirdpart{
+    height: 150vh;
+    width: 100vw;
+    border: 0px solid green;  
+}
+.child3{
+    height: 30%;
+    width: 100%;
+ /*    border: 0px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+.paragraph1{
+    height: 100%;
+    width: 80%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.paragraph{
+    line-height: 120%;
+}
+.forlink{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    position: relative;
+    left: -19%;
+}
+.titilpart{
+    font-size: xx-large;
+}
+.child4{
+ /*  background-image: url('/ASSETS/home4.jpg');  */
+ height: 100%;
+    width: 100%;
+}
+.forimg1{
+    height: 80%;
+    width: 70%;
+    z-index: -1;
+}
+.blackbox{
+    height: 50%;
+    width: 50%;
+    border: 0px solid black;
+    background-color: black;
+    position: relative;
+    bottom: 67%;
+    left: 48%;
+    z-index: 2;
+}
+.imgbox{
+    height: 60%;
+    width: 20%;
+    border: 0px solid palevioletred;
+    z-index: 3;
+    position: relative;
+    left: 75%;
+    bottom: 130%;
+}
+ .fourthpart{
+    height: 100vh;
+    width: 100vw;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f3f3f3;;
+ } 
+ .imagecard{
+    height: 100%;
+    width: 32.8%;
+ }
+.label1{
+    color: #fff;
+    text-align: center;
+    line-height: 1.4;
+    font-family: gotham;
+    font-size: xx-large;
+    font-weight: 100;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 65%;
+}
+ 
+.footer{
+    width: 100vw;
+    height: 80vh;
+    border: 0px solid white; 
+    background-color: #161f1e; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    flex-wrap: wrap;      
+    }
+    
+    .footer1{
+    width: 45%;
+    height: 100%;
+    border: 0px solid white;
+    }
+    .footer2{
+    width: 50%;
+    height: 100%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 16px;
+    }
+    .subchild1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    color: white;
+    line-height: 1.5em;
+    position: relative;
+    top: 143px;  
+    } 
+    .imageiccon{
+    width: 75px;
+    position: relative;
+    top: 137px;
+    left: 100px;
+    
+    }
+    .bottemfooter{
+    position: relative;
+    top: 300px;
+    left: 100px;  
+    }
+    
